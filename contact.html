@@ -303,36 +303,40 @@
                <div class="col-xl-12">
                   <div class="tp-contact-form-border">
                      <h4 class="tp-contact-form-title">Send your message</h4>
-                     <form action="#">
+                     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+    onload="if(submitted) {window.location='contact.html';}"></iframe> 
+                                <form method="post" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSePeDNxa4lx8qCz34IkTZST2A1Sxv5leTPC7waFBtKOX3j7SQ/formResponse" id="contact-form" target="hidden_iframe" onsubmit="submitted=true;" > 
+                                    
                         <div class="row">
                            <div class="col-xl-6 col-lg-6 col-md-6 col-12 mb-20">
                               <div class="tp-contact-form-input-box">
-                                 <input type="text" placeholder="Enter your name">
+                                 <input type="text" name="entry.281674593" placeholder="Enter your name" required="">
                               </div>
                            </div>
                            <div class="col-xl-6 col-lg- col-md-6 col-12 mb-20">
                               <div class="tp-contact-form-input-box">
-                                 <input type="text" placeholder="Enter your email">
+                                 <input type="text" name="entry.1396680739" placeholder="Enter your email" required="">
                               </div>
                            </div>
                            <div class="col-xl-6 col-lg-6 col-md-6 col-12 mb-20">
                               <div class="tp-contact-form-input-box">
-                                 <input type="text" placeholder="Your Contact Number">
+                                 <input type="text" name="entry.564548876" placeholder="Your Contact Number" required="">
                               </div>
                            </div>
                            <div class="col-xl-6 col-lg-6 col-md-6 col-12 mb-20">
                               <div class="tp-contact-form-input-box">
-                                 <input type="text" placeholder="Your Address">
+                                 <input type="text" name="entry.236248311" placeholder="Your Address">
                               </div>
                            </div>
                            <div class="col-12 mb-20">
                               <div class="tp-contact-form-input-box">
-                                 <textarea placeholder="Write your message"></textarea>
+                                 <textarea placeholder="Write your message" name="entry.1162028977"></textarea>
                               </div>
                            </div>
                         </div>
+                        <button type="submit" class="tp-btn theme-bg" name="submit-form"><span>SEND message</span></button>
                      </form>
-                     <button type="submit" class="tp-btn theme-bg"><span>SEND message</span></button>
+                     
                   </div>
                </div>
             </div>
