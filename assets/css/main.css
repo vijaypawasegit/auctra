@@ -8981,9 +8981,10 @@ body .ui-tooltip {
   }
 }
 .tp-about-2-right {
-  padding-top: 55px;
+  /* padding-top: 55px; */
   padding-bottom: 65px;
   transform: translateX(71px);
+  padding-top: 0;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tp-about-2-right {
