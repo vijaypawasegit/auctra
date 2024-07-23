@@ -5144,7 +5144,8 @@ body .ui-tooltip {
   position: absolute;
   top: 100%;
   left: -5px;
-  width: 240px;
+  /* width: 240px; */
+  width: 320px;
   z-index: 999;
   padding: 30px 40px;
   opacity: 0;
